@@ -1,0 +1,22 @@
+.PeopleListComponent {
+    background-color: rgb(175, 175, 11);
+    width: 40% !important;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    border-radius: 3px;
+}
+
+.peopleList {
+    list-style: none;
+    margin-top: 10px !important;
+    width: 80%;
+}
+
+
+.loading {
+    background-color: black !important;
+    display: flex;
+    margin-left: 200px;
+
+}

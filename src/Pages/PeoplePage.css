@@ -1,0 +1,36 @@
+.PeoplePage {
+    text-align: center;
+    /* height: 89vh; */
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+}
+
+.PeoplePage * {
+    padding: 0;
+    margin: 0;
+    color: darkgrey;
+}
+
+.page__heading{
+    padding-top: 20px;
+    height: 70px;
+}
+
+.page__heading > h1 {
+    color: rgb(175, 175, 11);
+}
+
+.people__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.loadingText {
+    padding: 50px;
+    color:  rgb(175, 175, 11);
+    font-size: xx-large;
+    font-weight: 300;
+}

@@ -1,0 +1,15 @@
+.personListItem {
+    color: black !important;
+    margin: 10px !important;    
+    background-color: rgb(248, 248, 163) !important;
+    border: 2px solid rgb(171, 149, 25) !important;
+    padding: 12px 30px 12px 30px !important;
+    width: 80% !important;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.personListItem:hover{
+    background-color: rgb(171, 149, 25) !important ;
+}
